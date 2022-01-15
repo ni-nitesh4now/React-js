@@ -20,6 +20,7 @@ const Statetut=()=>{
         <button onClick={increment}>Increment</button><br/>
         <input placeholder="Type here..." value={input} style={{width:input.length<5?50:input.length*5+50}} onChange={ch}/>
         <button onClick={delet}>Clear</button>
+        <h1></h1>
     </div>
 };
 
